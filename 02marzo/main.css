@@ -1,0 +1,45 @@
+.item1{grid-area: logo;}
+.item2{grid-area: barra_menu;}
+.item3{grid-area: marcador1;}
+.item4{grid-area: marcador2;}
+.item5{grid-area: marcador3;}
+.item6{grid-area: marcador4;}
+.item7{grid-area: marcador5;}
+.item8{grid-area: contenido;}
+.item9{grid-area: publicidad;}
+.item10{grid-area: footer;}
+
+
+
+
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'logo logo barra_menu barra_menu barra_menu barra_menu barra_menu barra_menu barra_menu barra_menu barra_menu barra_menu'
+      'logo logo marcador1 marcador1  marcador2 marcador2 marcador3 marcador3 marcador4 marcador4  marcador5 marcador5'
+      'contendido  contenido  contenido  contenido  contenido  contenido  contenido contenido contenido  publicidad publicidad publicidad'
+      'contendido  contenido  contenido  contenido  contenido  contenido  contenido contenido contenido  publicidad publicidad publicidad'
+      'contendido  contenido  contenido  contenido  contenido  contenido  contenido contenido contenido  publicidad publicidad publicidad'
+      'contendido  contenido  contenido  contenido  contenido  contenido  contenido contenido contenido  publicidad publicidad publicidad'
+      'contendido  contenido  contenido  contenido  contenido  contenido  contenido contenido contenido  publicidad publicidad publicidad'
+      'footer footer footer footer footer footer footer footer footer footer footer footer ';
+
+    grid-template-rows: auto auto 300px;
+    gap: 12px;
+    background-color: greenyellow;
+    
+    padding: 10px;
+  }
+
+  .grid-container > div {
+    background-color: rgb(179, 139, 10);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+

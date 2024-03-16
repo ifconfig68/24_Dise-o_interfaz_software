@@ -1,0 +1,59 @@
+#titulo{
+    background-color: purple;
+    width: 100%;
+}
+
+#menu{
+    background-color: burlywood;
+    height: 300%;
+    width: 30px;
+    
+}
+
+
+#menu>div{
+    background-color: aqua;
+    width: 30%;
+    margin: 5px;
+    
+}
+
+
+#publi{
+    background-color: blue;
+    width: 100%;
+    align-self: stretch;
+    height:50px ;
+    
+}
+
+#foot{
+    background-color: red;
+    width: 100%;
+
+}
+
+.layout {
+   
+    display: flex;
+    flex-flow: wrap row;
+    
+
+}
+
+.contenedor {
+    width: 100%;
+    background-color: greenyellow;
+    display: flex;
+    flex-flow: nowrap row;
+    align-items: flex-start;
+    justify-content: space-between;
+    height:400px ;
+}
+
+.nav{
+    display: flex;
+    flex-flow: wrap row;
+
+
+}

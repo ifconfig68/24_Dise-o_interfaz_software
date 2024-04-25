@@ -1,0 +1,36 @@
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Para mostrar las listas en línea */
+    background-color: rgba(165, 236, 21, 0.897);
+    border-radius: 10px;
+    
+
+    
+    }
+
+    .menu li {
+        margin-right: 20px; /* Espacio entre cada elemento de la lista */
+    }
+
+    .menu li:last-child {
+        margin-right: 0; /* Elimina el margen derecho del último elemento de la lista */
+    }
+
+
+.text_importancia {
+    font-size: 30px;
+    justify-items: center;
+    text-align: justify;
+    whi
+}
+
+
+ * {
+            margin-top: 5px; /* Margen superior de 20 píxeles */
+            margin-left: 5px; /* Margen izquierdo de 30 píxeles */
+            margin-right: 10px; /* Margen derecho de 30 píxeles */
+            margin-bottom: 10px; /* Margen inferior de 20 píxeles */
+ }
+

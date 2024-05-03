@@ -1,36 +1,124 @@
-.menu ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex; /* Para mostrar las listas en línea */
-    background-color: rgba(165, 236, 21, 0.897);
-    border-radius: 10px;
-    
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+
+body {
+    background: #444;
+    color: #fff;
+}
+
+#contenedor {
+    width: 960px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+   
+}
+
+header {
+    height: 150px;
+    background: #000;
+    margin-bottom: 10px;
 
     
-    }
+}
 
-    .menu li {
-        margin-right: 20px; /* Espacio entre cada elemento de la lista */
-    }
+header h1{
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
 
-    .menu li:last-child {
-        margin-right: 0; /* Elimina el margen derecho del último elemento de la lista */
-    }
+}
 
+nav {
+    background: orange;
+    height: 60px;
 
-.text_importancia {
-    font-size: 30px;
-    justify-items: center;
-    text-align: justify;
-    whi
+}
+
+nav h2 {
+    font-size: 40px;
+    text-align:center;
+    line-height: 60px;
+
+}
+
+#contenido {
+    width: 700px;
+    height: 500px;
+    float: left;
+    background: blue;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#contenido h2{
+
+    font-size: 40px;
+    text-align: center;
+    line-height: 500px;
 }
 
 
- * {
-            margin-top: 5px; /* Margen superior de 20 píxeles */
-            margin-left: 5px; /* Margen izquierdo de 30 píxeles */
-            margin-right: 10px; /* Margen derecho de 30 píxeles */
-            margin-bottom: 10px; /* Margen inferior de 20 píxeles */
- }
+aside {
+    width: 250px;
+    height: 500px;
+    background: green;
+    margin-top: 10px;
+    float: right;
+    
+}
 
+aside h2 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 500px;
+}
+
+footer {
+    background-color: #000;
+    clear: both
+}
+    
+
+
+footer h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.menu {
+    text-align: center;
+  }
+  
+  .menu ul {
+    display: inline-block;
+    
+    padding: 0;
+    margin: 0;
+    background-color: rgba(165, 236, 21, 0.897);
+    border-radius: 20px;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+    margin-right: 50px; /* Ajusta este valor según sea necesario */
+  }
+  
+  .menu ul li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+  }
+  
+  nav.menu {
+    margin: 0 auto; /* Centra el menú horizontalmente */
+  }
+  

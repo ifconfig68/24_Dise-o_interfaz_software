@@ -47,6 +47,7 @@ header{
 }
 .menu nav {
     height: 100%;
+    margin-bottom: 15px;
 
 }
 .menu  nav ul {
